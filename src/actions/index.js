@@ -1,13 +1,13 @@
-export function addFeature(newFeature) {
+export function addFeature(id) {
     return {
         type: "ADD_FEATURE",
-        payload: newFeature
+        payload: id
     }
 }
 
-export function removeFeature(removeFeature) {
+export function removeFeature(id) {
     return {
         type: "REMOVE_FEATURE",
-        payload: removeFeature
+        payload: id
     }
 }
